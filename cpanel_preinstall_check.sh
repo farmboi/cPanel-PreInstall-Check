@@ -4,7 +4,7 @@ if 0;
 #!/usr/bin/perl
 ###############################
 ##  cPanel Preinstall Check  ##
-##  Version 1.3.0.06         ##
+##  Version 1.3.0.07         ##
 ##  By: Matthew Vetter       ##
 ###############################
 
@@ -122,6 +122,7 @@ sub cpanelchk{
             print "\t \_ Previous cPanel Installation/Removal Detected\n";
             print "\t \_ You will need to start with a fresh OS install / reinstall the OS before installing cPanel\n";
         }
+        print "========================================================================================================================\n";
         exit 0;    
     }
     else {
