@@ -86,7 +86,7 @@ oskernelchk();
 
 if ($failed){
     if (!$fixit){
-        print "\n${yellow}[INFO] * YOU CAN FIX FAILURES BY RE-RUNNING THE SCRIPT WITH --fix${NC}\n";
+        print "\n${yellow}[INFO] * YOU CAN FIX FAILURES/WARNINGS BY RE-RUNNING THE SCRIPT WITH --fix${NC}\n";
     }
 }
 
